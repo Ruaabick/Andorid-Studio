@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView android:text=" 日记标题" />
+
+        <EditText
+            android:id="@+id/ETitle"
+            android:layout_width="match_parent" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="创建日期" />
+
+        <EditText
+            android:id="@+id/EDate"
+            android:layout_width="match_parent" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="日记内容" />
+
+        <EditText
+            android:id="@+id/EContent"
+            android:layout_width="match_parent" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text=" 日记作者" />
+
+        <EditText
+            android:id="@+id/EAuthor"
+            android:layout_width="match_parent" />
+    </TableRow>
+
+    <TableRow>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:visibility="invisible"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:visibility="invisible"/>
+        <Button
+            android:id="@+id/Confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定" />
+
+        <Button
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消" />
+
+    </TableRow>
+
+</TableLayout>

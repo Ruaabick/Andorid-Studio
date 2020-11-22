@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView android:text=" 日记标题" />
+
+        <EditText
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="创建日期" />
+
+        <EditText
+            android:id="@+id/txtDate"
+            android:layout_width="match_parent" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="日记内容" />
+
+        <EditText
+            android:id="@+id/txtContent"
+            android:layout_width="match_parent" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text=" 日记作者" />
+
+        <EditText
+            android:id="@+id/txtAuthor"
+            android:layout_width="match_parent" />
+    </TableRow>
+</TableLayout>
